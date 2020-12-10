@@ -413,8 +413,8 @@
     <!-- Volume controls -->
     <ctl name="LINEOUT1 Volume" value="13" />
     <ctl name="LINEOUT2 Volume" value="13" />
-    <ctl name="HPHL Volume" value="20" />
-    <ctl name="HPHR Volume" value="20" />
+    <ctl name="HPHL Volume" value="28" />
+    <ctl name="HPHR Volume" value="28" />
     <ctl name="EAR PA Gain" value="G_6_DB" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
 
@@ -426,11 +426,11 @@
     <ctl name="RX5 Digital Volume" value="84" />
     <ctl name="RX6 Digital Volume" value="84" />
     <ctl name="RX7 Digital Volume" value="84" />
-    <ctl name="ADC1 Volume" value="12" />
-    <ctl name="ADC2 Volume" value="12" />
+    <ctl name="ADC1 Volume" value="20" />
+    <ctl name="ADC2 Volume" value="20" />
     <!-- #ifdef VENDOR_EDIT-->
-    <ctl name="ADC3 Volume" value="12" />
-    <ctl name="ADC4 Volume" value="12" />
+    <ctl name="ADC3 Volume" value="20" />
+    <ctl name="ADC4 Volume" value="20" />
     <ctl name="DEC0 Volume" value="84" />
     <ctl name="DEC1 Volume" value="84" />
     <ctl name="DEC2 Volume" value="84" />
@@ -2861,7 +2861,7 @@
     <path name="third-mic-mmi">
         <path name="amic1" />
         <ctl name="DEC6 Volume" value="84" />
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC1 Volume" value="20" />
         <!-- <path name="amic5" />
         <ctl name="DEC0 Volume" value="84" />
         <ctl name="ADC4 Volume" value="12" /> -->
@@ -2904,9 +2904,9 @@
         <ctl name="CDC_IF TX8 MUX" value="DEC8" />
         <ctl name="ADC MUX8" value="AMIC" />
         <ctl name="AMIC MUX8" value="ADC1" />
-        <ctl name="ADC1 Volume" value="6" />
-        <ctl name="ADC3 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC1 Volume" value="14" />
+        <ctl name="ADC3 Volume" value="14" />
+        <ctl name="ADC4 Volume" value="14" />
     </path>
 <!-- //liuhaituo@MM.Audio, 2019/7/19, Add three-stage headphones Karaoke special mic -->
     <path name="headphone-mic-karaoke">
@@ -2916,12 +2916,12 @@
         <ctl name="ADC MUX5" value="AMIC" />
         <ctl name="AMIC MUX5" value="ADC4" />
         <ctl name="AMIC4_5 SEL" vlaue="AMIC4" />
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC4 Volume" value="14" />
     </path>
 <!--endif -->
     <path name="handset-mic-rec">
         <path name="amic3" />
-        <ctl name="ADC3 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="14" />
     </path>
 <!--endif -->
 
@@ -3317,7 +3317,7 @@
     <path name="voice-rec-mic">
         <path name="handset-mic" />
 <!-- ifdef VENDOR_EDIT -->
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC4 Volume" value="14" />
         <ctl name="DEC0 Volume" value="74" />
 <!-- endif -->
     </path>
@@ -3417,8 +3417,8 @@
         <ctl name="AMIC MUX6" value="ADC3" />
         <ctl name="DEC5 Volume" value="90" />
         <ctl name="DEC6 Volume" value="90" />
-        <ctl name="ADC3 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="14" />
+        <ctl name="ADC4 Volume" value="14" />
     </path>
 
     <path name="handset-mic-re-default">
@@ -3434,8 +3434,8 @@
         <ctl name="AMIC MUX6" value="ADC3" />
         <ctl name="DEC5 Volume" value="90" />
         <ctl name="DEC6 Volume" value="90" />
-        <ctl name="ADC3 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="14" />
+        <ctl name="ADC4 Volume" value="14" />
     </path>
 
      <path name="handset-mic-re-sbc-other">
@@ -3451,8 +3451,8 @@
         <ctl name="AMIC4_5 SEL" value="AMIC4" />
         <ctl name="DEC6 Volume" value="90" />
         <ctl name="DEC5 Volume" value="90" />
-        <ctl name="ADC3 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="14" />
+        <ctl name="ADC4 Volume" value="14" />
     </path>
 
       <path name="handset-mic-re-single">
@@ -3468,8 +3468,8 @@
         <ctl name="AMIC MUX6" value="ADC3" />
         <ctl name="DEC5 Volume" value="90" />
         <ctl name="DEC6 Volume" value="90" />
-        <ctl name="ADC3 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="14" />
+        <ctl name="ADC4 Volume" value="14" />
     </path>
 
    <path name="speaker-dmic-endfire-wechat-vm">
@@ -3483,8 +3483,8 @@
         <ctl name="CDC_IF TX6 MUX" value="DEC6" />
         <ctl name="ADC MUX6" value="AMIC" />
         <ctl name="AMIC MUX6" value="ADC3" />
-        <ctl name="ADC3 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="14" />
+        <ctl name="ADC4 Volume" value="14" />
     </path>
 
     <path name="speaker-mic-wechat-front">
@@ -3502,9 +3502,9 @@
         <ctl name="CDC_IF TX7 MUX" value="DEC7" />
         <ctl name="ADC MUX7" value="AMIC" />
         <ctl name="AMIC MUX7" value="ADC1" />
-        <ctl name="ADC3 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
-        <ctl name="ADC1 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="14" />
+        <ctl name="ADC4 Volume" value="14" />
+        <ctl name="ADC1 Volume" value="14" />
     </path>
 
     <path name="speaker-mic-wechat-back">
@@ -3522,9 +3522,9 @@
         <ctl name="CDC_IF TX7 MUX" value="DEC7" />
         <ctl name="ADC MUX7" value="AMIC" />
         <ctl name="AMIC MUX7" value="ADC1" />
-        <ctl name="ADC3 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
-        <ctl name="ADC1 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="14" />
+        <ctl name="ADC4 Volume" value="14" />
+        <ctl name="ADC1 Volume" value="14" />
     </path>
 
     <path name="voice-speaker-voip-mic">
@@ -3953,7 +3953,7 @@
     <path name="unprocessed-mic">
         <path name="unprocessed-handset-mic" />
 <!-- ifdef VENDOR_EDIT -->
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC4 Volume" value="14" />
         <ctl name="DEC0 Volume" value="78" />
 <!-- endif -->
     </path>
